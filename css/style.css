@@ -10,6 +10,10 @@
 	font-family: Montserrat-Regular;
 	src: url(../fonts/Montserrat-Regular.ttf);
 }
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
 #wrapper{
 	width:100%;
 	border:1px solid #fff;
@@ -18,7 +22,7 @@
 #header{
 	background: url(../img/Header/bgheader.jpg) no-repeat top center;
 	background-size: 100% 100%;
-	min-width: 1225px;
+	min-width: 1400px;
 }
 #header-menu{
 	height:76px;
@@ -138,5 +142,92 @@
 .clear{
 	clear:both;
 }
-
+#story-about-us{
+	min-width: 1400px;
+	background-color: #ffffff;
+}
+#story-title,#story-image-block{
+   max-width: 1500px;
+   min-width: 1000px;
+   margin:0px auto;
+}
+#story-text1{
+	font-family: 'KaushanScript';
+	font-size: 24pt;
+	text-align: center;
+	padding-top:94px;
+}
+#story-text2{
+	font-family: 'Montserrat-Bold';
+	font-size: 30pt;
+	text-align: center;
+	padding-top: 28px;
+}
+.red-line{
+	display:block;
+	width:62px;
+	border:3px solid #f38181;
+	margin:40px auto 0px auto;
+}
+.story-text3{
+   font-family: 'Roboto-Regular';
+   font-size: 15pt;
+   color: #999999;
+   padding-top: 50px;
+   text-align: center;
+}
+#story-text3{
+	padding-top: 18px;
+}
+#story-image-block{
+	border:1px solid transparent;
+	box-sizing: border-box;
+	min-width: 1225px;
+	padding-top: 104px;
+	padding-bottom: 110px;
+	text-align: center;
+}
+#story-image-block img{
+	margin-right: 32px;
+	display:inline-block;
+}
+#story-image-block img:last-child{
+	margin-right: 0;
+}
+#story-statistics{
+	min-width: 1400px;
+	height:270px;
+	background-color: #95e1d3;
+}
+#statistics{
+	margin:0px auto;
+	max-width: 1246px;
+	min-width: 1225px;
+	height:270px;
+	text-align: center;
+}
+#statistics div{
+	display:inline-block;
+	width:241px;
+	height:270px;
+	border-left: 1px solid #b5eae0;
+}
+#statistics div:last-child{
+ border-right: 1px solid #b5eae0;	
+}
+#statistics div span{
+	display: block;
+	color:#ffffff;
+	text-align: center;
+}
+#statistics div .digit{
+	font-family: 'Montserrat-Bold';
+	font-size: 72pt;
+	margin-top:63px;
+}
+#statistics div .text{
+	font-family: 'Montserrat-Regular';
+	font-size: 14pt;
+	margin-top:28px;
+}
 
