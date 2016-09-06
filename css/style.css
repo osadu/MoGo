@@ -151,13 +151,13 @@
    min-width: 1000px;
    margin:0px auto;
 }
-#story-text1,#services-text1{
+#story-text1,#services-text1,#unique-design-text1{
 	font-family: 'KaushanScript';
 	font-size: 24pt;
 	text-align: center;
 	padding-top:94px;
 }
-#story-text2,#services-text2{
+#story-text2,#services-text2,#unique-design-text2{
 	font-family: 'Montserrat-Bold';
 	font-size: 30pt;
 	text-align: center;
@@ -282,4 +282,32 @@
 	width: 1200px;
 	border-bottom:2px solid #e5e5e5;
 	margin:50px auto;
+}
+#unique-design{
+	width:100%;
+	min-width: 1400px;
+	background: url(../img/UniqueDesign/bg.jpg) no-repeat center top;
+	background-size: 100% 100%;
+	height:870px;
+}
+#unique-design-block{
+	position: relative;
+	max-width: 1500px;
+	min-width: 1000px;
+	margin: 0px auto;
+	height:100%;
+}
+#ipad{
+	position: absolute;
+	left:505px;
+	bottom: 0px;
+}
+#iphone{
+	position: absolute;
+	left:868px;
+	bottom: -85px;
+}
+#what-we-do{
+	width:100%;
+	min-width: 1400px;
 }
