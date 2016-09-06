@@ -151,13 +151,13 @@
    min-width: 1000px;
    margin:0px auto;
 }
-#story-text1{
+#story-text1,#services-text1{
 	font-family: 'KaushanScript';
 	font-size: 24pt;
 	text-align: center;
 	padding-top:94px;
 }
-#story-text2{
+#story-text2,#services-text2{
 	font-family: 'Montserrat-Bold';
 	font-size: 30pt;
 	text-align: center;
@@ -230,4 +230,56 @@
 	font-size: 14pt;
 	margin-top:28px;
 }
+#amaizing-services{
+	width:100%;
+	min-width: 1400px;
+	padding-bottom: 120px;
+}
+#services-block{
+	min-width: 1000px;
+	max-width: 1500px;
+    margin:0px auto;
+}
+.services-items{
+	float:left;
+}
+.services-items-block{
+	margin-left:26px;
+	width:284px;
+}
+.services-items .services-title{
+	font-family: 'Montserrat-Regular';
+	font-size: 14pt;
+	color:#000000;
+	text-align: left;
+}
+.services-items .services-text{
+	font-family: 'Roboto-Regular';
+	font-size: 11pt;
+	color:#b6b6b6;
+	margin-top:7px;
+	line-height: 19px;
+	text-align: left;
+}
 
+.services-container{
+	width:100%;
+    text-align: center;
+    margin-top:64px;
+}
+#services-container-last{
+	margin-top:0px;
+}
+.container-item{
+	display: inline-block;
+	margin-right:66px;
+}
+.container-item:last-child{
+	margin-right: 0;
+}
+.grey-line{
+	display: block;
+	width: 1200px;
+	border-bottom:2px solid #e5e5e5;
+	margin:50px auto;
+}
